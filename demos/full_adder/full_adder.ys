@@ -1,0 +1,3 @@
+read_verilog full_adder.v        # Read the Verilog file
+synth -top full_adder            # Synthesize the design for the top module (half_adder)
+show                             # Show the schematic (this will open a Graphviz window)

@@ -1,0 +1,4 @@
+read_verilog full_adder.v
+read_verilog ripple_adder.v
+synth -top ripple_adder
+show ripple_adder
